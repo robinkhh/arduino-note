@@ -27,7 +27,7 @@ boolean button_status=true;
 boolean sound(int x ){
   for (int i=0;i<x;i++)
   {
-    //anyone pushed button
+    //someone pushed a button
     digitalWrite(15,HIGH);delay(3); digitalWrite(15,LOW);delay(3); 
   }
   while (button_status==false){

@@ -1,7 +1,8 @@
 static int ledStatus;
 
 void setup(){
-  Serial.begin(115200);
+  //serial monitor need to set at 1200 baud
+  Serial.begin(9600);
   Serial.println("ledStatus");
   pinMode(16, INPUT);
   pinMode(11, OUTPUT);
